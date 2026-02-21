@@ -8,7 +8,7 @@ import userRouter from "./src/modules/user/user.controller.js";
 const app = express();
 
 app.use(cors({
-    origin: "https://codegad.vercel.app/",
+    origin: "https://codegad.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
