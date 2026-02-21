@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
 import User from "../../../DB/Models/user.model.js";
 import BlackListToken from "../../../DB/Models/black-list-tokens.model.js";
-import { emitter } from "../../../services/send-Email.Service.js";
+import { emitter } from "../../../services/send-email.service.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
