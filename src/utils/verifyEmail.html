@@ -1,0 +1,306 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    />
+    <title>تفعيل حساب Code Gad</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        margin: 0;
+        padding: 15px;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: "Cairo", "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+      /* Container */
+      .container {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 28px;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+      /* Header */
+      .header {
+        background: #0077ff;
+        background-image: linear-gradient(135deg, #0077ff 0%, #00d4ff 100%);
+        padding: 1.5rem 1rem 2.2rem;
+        text-align: center;
+      }
+      .header h1 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      /* Content area */
+      .content {
+        padding: 3rem 2.5rem 2.5rem;
+        margin-top: -1.8rem;
+        background-color: #ffffff;
+        border-radius: 28px 28px 0 0;
+        position: relative;
+        z-index: 3;
+      }
+      /* Main heading */
+      .main-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1a365d;
+        text-align: center;
+        margin-bottom: 1.8rem;
+        padding-bottom: 1rem;
+        position: relative;
+      }
+      .main-heading span {
+        display: block;
+        margin: 0.6rem auto 0;
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(to right, #0077ff, #00d4ff);
+        border-radius: 2px;
+      }
+      /* Description text */
+      .description {
+        font-size: 1.1rem;
+        color: #4a5568;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .description strong {
+        color: #0077ff;
+      }
+      /* Activation box */
+      .activation-box {
+        background: #f8fafc;
+        background-image: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+        border-radius: 24px;
+        padding: 2.2rem;
+        margin: 2.5rem 0;
+        text-align: center;
+        border: 1px solid #e2e8f0;
+      }
+      .activation-box h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 1.5rem;
+      }
+      .button {
+        display: inline-block;
+        background: #0077ff;
+        background-image: linear-gradient(135deg, #0077ff 0%, #00d4ff 100%);
+        color: #ffffff !important;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 1rem 2.8rem;
+        border-radius: 50px;
+        text-decoration: none;
+        margin: 1.2rem 0;
+        border: none;
+        cursor: pointer;
+        width: auto;
+        max-width: 100%;
+      }
+      .note {
+        font-size: 0.9rem;
+        color: #718096;
+        margin-top: 1.5rem;
+        line-height: 1.6;
+      }
+      /* Footer text */
+      .footer-text {
+        text-align: right;
+        font-size: 1rem;
+        color: #4a5568;
+        line-height: 1.7;
+        margin-top: 1rem;
+      }
+      .signature {
+        font-weight: 700;
+        color: #0077ff;
+      }
+      /* Footer */
+      .footer {
+        background: #1a365d;
+        color: #ffffff;
+        padding: 2.5rem 2rem;
+        text-align: center;
+        border-radius: 0 0 28px 28px;
+      }
+      .footer-info {
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 1.8;
+      }
+      .footer-info a {
+        color: white;
+        text-decoration: none;
+        margin: 0 0.2rem;
+      }
+      .footer-info a:hover {
+        border-bottom: 1px solid white;
+      }
+      .copyright {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+      }
+      /* Responsive design */
+      @media screen and (max-width: 600px) {
+        body {
+          padding: 10px;
+        }
+        .container {
+          border-radius: 20px;
+        }
+        .header {
+          padding: 1.2rem 0.8rem 1.8rem;
+        }
+        .header h1 {
+          font-size: 1.8rem;
+        }
+        .content {
+          padding: 2.2rem 1.5rem 2rem;
+          margin-top: -1.5rem;
+        }
+        .main-heading {
+          font-size: 1.7rem;
+          margin-bottom: 1.5rem;
+        }
+        .description {
+          font-size: 1rem;
+          margin-bottom: 1.5rem;
+        }
+        .activation-box {
+          padding: 1.5rem 1rem;
+          margin: 2rem 0;
+          border-radius: 20px;
+        }
+        .activation-box h2 {
+          font-size: 1.3rem;
+        }
+        .button {
+          display: block;
+          width: 100%;
+          padding: 1rem 1.5rem;
+          font-size: 1.1rem;
+          margin: 1rem 0;
+          box-sizing: border-box;
+        }
+        .note {
+          font-size: 0.85rem;
+        }
+        .footer-text {
+          font-size: 0.95rem;
+        }
+        .footer {
+          padding: 2rem 1.5rem;
+        }
+        .footer-info {
+          font-size: 0.9rem;
+        }
+        .footer-info a {
+          display: inline-block;
+          margin: 0.2rem 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .content {
+          padding: 1.8rem 1rem 1.5rem;
+        }
+        .main-heading {
+          font-size: 1.5rem;
+        }
+        .description {
+          font-size: 0.95rem;
+        }
+        .activation-box h2 {
+          font-size: 1.2rem;
+        }
+        .button {
+          font-size: 1rem;
+          padding: 0.9rem 1rem;
+        }
+        .footer {
+          padding: 1.5rem 1rem;
+        }
+        .footer-info {
+          font-size: 0.85rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <h1>Code Gad</h1>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+        <h1 class="main-heading">
+          تفعيل حسابك
+          <span></span>
+        </h1>
+        <p class="description" dir="rtl">
+          أهلاً وسهلاً بك في <strong>Code Gad</strong>!<br />
+          نحن سعداء بانضمامك إلى مجتمعنا المتميز. لتفعيل حسابك والبدء في رحلتك
+          معنا، يرجى النقر على زر التفعيل أدناه.
+        </p>
+
+        <!-- Activation Box -->
+        <div class="activation-box">
+          <h2>أنت على بعد خطوة واحدة!</h2>
+          <a href="{{verifyURL}}" class="button">تفعيل حسابي الآن</a>
+          <p class="note">
+            يجب تفعيل حسابك خلال 10 دقائق.<br />
+            إذا واجهت أي مشكلة، يمكنك طلب إرسال رابط تفعيل جديد من إعدادات
+            الحساب.
+          </p>
+        </div>
+
+        <!-- Footer text inside content -->
+        <p dir="rtl" class="footer-text">
+          إذا لم تقم بإنشاء حساب في Code Gad، يمكنك تجاهل هذا البريد الإلكتروني
+          بأمان.<br /><br />
+          نتمنى لك تجربة ممتعة معنا،<br />
+          <span class="signature" dir="rtl">فريق Code Gad</span>
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer" dir="rtl">
+        <div class="footer-info">
+          <div>
+            للاستفسارات:
+            <a href="mailto:enggadali@gmail.com" dir="ltr"
+              >enggadali@gmail.com</a
+            >
+          </div>
+          <div>
+            هاتف:
+            <a href="tel:+201093586806" dir="ltr">+201093586806</a>
+          </div>
+        </div>
+        <div class="copyright" dir="rtl">جميع الحقوق محفوظة Code Gad</div>
+      </div>
+    </div>
+  </body>
+</html>
