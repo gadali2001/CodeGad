@@ -9,7 +9,6 @@ export const getProfileService = async (req, res) => {
         }
         res.status(200).json({ message: "User profile fetched successfully", user });
     } catch (error) {
-        console.log(error);
         res.status(500).json({ message: "Internal server error" });
     }
 }
@@ -34,7 +33,6 @@ export const updatePasswordService = async (req, res) => {
 
         res.status(200).json({ message: "Password updated successfully" });
     } catch (error) {
-        console.log(error);
         res.status(500).json({ message: "Internal server error" });
     }
 }
@@ -44,7 +42,6 @@ export const allUsersService = async (req, res) => {
         const users = await User.find();
         res.status(200).json({ message: "Users fetched successfully", users });
     } catch (error) {
-        console.log(error);
         res.status(500).json({ message: "Internal server error" });
     }
 }
