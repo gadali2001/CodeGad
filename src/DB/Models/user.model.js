@@ -1,4 +1,5 @@
 import { Schema, model } from "mongoose";
+import { systemRoles } from "../../constants/constants.js";
 
 const userSchema = new Schema({
     displayName: {
@@ -58,7 +59,8 @@ const userSchema = new Schema({
     },
     role: {
         type: String,
-        default: "user"
+        default: systemRoles.user,
+        enum: Object.values(systemRoles)
     },
     isEmailVerified: {
         type: Boolean,

@@ -20,7 +20,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
 connectDB();
-// app.listen(process.env.PORT, () => {
-//     console.log(`Server is running on port http://localhost:${process.env.PORT}`);
-// });
-export default app;
+app.listen(process.env.PORT, () => {
+    console.log(`Server is running on port http://localhost:${process.env.PORT}`);
+});
+// export default app;
